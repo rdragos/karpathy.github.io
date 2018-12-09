@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "moved to Jekyll now"
 excerpt: "Since now I can create blogposts, might as well do one now."
-date:   2018-01-20 11:00:00
+date:   2018-12-10 11:00:00
 mathjax: false
 ---
 
