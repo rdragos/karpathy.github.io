@@ -26,7 +26,7 @@ permalink: /research/
 <strong> Overdrive: Making SPDZ Great Again.</strong>
 <br> Marcel Keller, Valerio Pastro, Dragos Rotaru
 <br> <em>EUROCRYPT 2018</em> ≻ <a href="https://ia.cr/2017/1230">eprint</a>,
- <a href="assets/slides/ec18.pdf" title="ec18">slides</a>.
+ <a href="/assets/slides/ec18.pdf" title="ec18">slides</a>.
 </li>
 
 
