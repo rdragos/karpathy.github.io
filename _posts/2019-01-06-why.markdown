@@ -8,7 +8,7 @@ mathjax: false
 
 
 Why have I started a blog? The answer is pretty straightforward:
-I have to write my thesis and unless you're [Craig Gentry](lala) almost no one will read your PhD thesis (apologize to Nigel and my committee!).
+I have to write my thesis and unless you're [Craig Gentry](https://crypto.stanford.edu/craig/) almost no one will read your PhD thesis (apologize to Nigel and my committee!).
 
 Since I am not Gentry and my thesis is not inventing the first FHE scheme
 the idea of these posts is to disseminate my thesis into tutorials on how to do cool stuff using MPC.

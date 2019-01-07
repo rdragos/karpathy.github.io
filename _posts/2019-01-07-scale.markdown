@@ -15,7 +15,7 @@ in this post we will show you how to install our software [SCALE-MAMBA](https://
 Although part of the installation is covered in the original documentation we have
 noticed that a number of users get stuck in the process of installing the
 dependencies. Hence we focus here on successfully compiling SCALE and
-in the end we run a sample program as the one present in its [documentation](lala).
+in the end we run a sample program as the one present in its [documentation](https://homes.esat.kuleuven.be/~nsmart/SCALE/Documentation.pdf).
 
 We begin by fetching the code from github. For simplicity let's assume that you ran the following command inside your home directory:
 
@@ -24,7 +24,7 @@ We begin by fetching the code from github. For simplicity let's assume that you 
 
 Also, please check that you have the latest `g++`. Don't forget the `yasm` package and `python` which can be easily installed by doing:
 
-`sudo apt-get install yasm python`. Alternatively you can install yasm from its source [here](blabla).
+`sudo apt-get install yasm python`. Alternatively you can install yasm from its [source](http://yasm.tortall.net/releases/Release1.3.0.html)
 
 
 #### Step 1.
@@ -96,7 +96,7 @@ Since SCALE supports many adversary structures such as dishonest majority, Q2 ac
 sharing schemes such as additive, replicated or Shamir sharing (see [readme](https://github.com/KULeuven-COSIC/SCALE-MAMBA/Auto-Test-Data/README.txt) for details)
 it might be overwhelming to a novice to figure out what and how to use it.
 
-So let's simply follow the Idiot's installation [guide](https://homes.esat.kuleuven.be/~nsmart/SCALE/) (can you guess who wrote it?)
+So let's simply follow the Idiot's installation from [guide](https://homes.esat.kuleuven.be/~nsmart/SCALE/Documentation.pdf) (can you guess who wrote it?)
 where we run a simple program using 3-parties Shamir resistant against 1 corruption on a localhost.
 
 ```bash
