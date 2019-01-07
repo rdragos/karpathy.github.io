@@ -1,0 +1,18 @@
+---
+layout: post
+comments: true
+title:  "Why I have started a blog?"
+excerpt: "The answer to life"
+mathjax: false
+---
+
+
+Why have I started a blog? The answer is pretty straightforward:
+I have to write my thesis and unless you're [Craig Gentry](lala) almost no one will read your PhD thesis (apologize to Nigel and my committee!).
+
+Since I am not Gentry and my thesis is not inventing the first FHE scheme
+the idea of these posts is to disseminate my thesis into tutorials on how to do cool stuff using MPC.
+
+I will start with some introductory material to run some basic (yet interesting) programs using SCALE-MAMBA.
+Afterwards I will try to sprinkle some posts with some research bits I have done. In this way at least
+some chunks of the thesis will be read by more than 5 people.
