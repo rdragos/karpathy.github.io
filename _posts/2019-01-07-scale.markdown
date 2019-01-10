@@ -111,7 +111,7 @@ We then compile a simple program written in a python like language (hence the MA
 ./compile.py Programs/tutorial
 ```
 
-Finally, get some new terminal windows to run a 3-party protocol described by `Program/tutorial.mpc` with an 1 out of 3 Shamir sharing scheme.
+Finally, get some new terminal windows to run a 3-party protocol described by `Programs/tutorial/tutorial.mpc` with an 1 out of 3 Shamir sharing scheme.
 
 ```bash
 ./Player.x 0 Programs/tutorial
