@@ -1,7 +1,6 @@
 ---
 layout: page
 mathjax: true
-comments: true
 title: Research
 permalink: /research/
 ---
