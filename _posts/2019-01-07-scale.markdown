@@ -6,7 +6,7 @@ excerpt: "simple guide to install MPC engine"
 mathjax: false
 ---
 
-
+*Updated post: SCALE-MAMBA 1.3 also requires cryptopp library*.
 
 So you have finally decided to give [multiparty computation](https://en.wikipedia.org/wiki/Secure_multi-party_computation)
 a try but you find the installation of most software so complicated? No need to worry:
@@ -24,24 +24,26 @@ We begin by fetching the code from github. For simplicity let's assume that you 
 
 Also, please check that you have the latest `g++`. Don't forget the `yasm` package and `python` which can be easily installed by doing:
 
-`sudo apt-get install yasm python`. Alternatively you can install yasm from its [source](http://yasm.tortall.net/releases/Release1.3.0.html)
+`sudo apt-get install yasm python`. Alternatively you can install yasm from its [source](http://yasm.tortall.net/releases/Release1.3.0.html).
 
 
 #### Step 1.
 
-Install `mpir` and `openssl` inside `~/local`. This `~/local` directory can be changed to whatever you wish.
+Install `mpir`, `openssl`, `crypto++`, inside `~/local`. This `~/local` directory can be changed to whatever you wish.
 
 
 ```bash
 $ mylocal="$HOME/local"
 $ mkdir -p ${mylocal}
 $ cd ${mylocal}
+$ 
+$ # install MPIR
 $ curl -O 'http://mpir.org/mpir-3.0.0.tar.bz2'
 $ tar xf mpir-3.0.0.tar.bz2
 $ cd mpir-3.0.0
 $ ./configure --enable-cxx --prefix="${mylocal}/mpir"
 $ make && make check && make install
-
+$ 
 $ # install OpenSSL 1.1.0
 $ cd $mylocal
 $ curl -O https://www.openssl.org/source/openssl-1.1.0j.tar.gz
@@ -49,11 +51,17 @@ $ tar -xf openssl-1.1.0j.tar.gz
 $ cd openssl-1.1.0j
 $ ./config --prefix="${mylocal}/openssl"
 $ make && make install
+$ 
+$ # install crypto++
+$ curl -O https://www.cryptopp.com/cryptopp800.zip
+$ unzip cryptopp800.zip -d cryptopp800
+$ cd cryptopp800
+$ make && make install PREFIX=${mylocal}/cryptopp
 ```
 
 #### Step 2.
 
-Export `mpir` and `openssl` paths by copying the following lines at the end of your `~/.bashrc` configuration file.
+Export `mpir`, `openssl` and `crypto++` paths by copying the following lines at the end of your `~/.bashrc` configuration file.
 
 ```bash
 # this goes at the end of your ~/.bashrc file
@@ -67,11 +75,15 @@ export LIBRARY_PATH="${mylocal}/openssl/lib/:${LIBRARY_PATH}"
 export LD_LIBRARY_PATH="${mylocal}/openssl/lib/:${LD_LIBRARY_PATH}"
 
 # export MPIR paths
-export PATH="${mylocal}/mpir/bin/:${PATH}"
 export C_INCLUDE_PATH="${mylocal}/mpir/include/:${C_INCLUDE_PATH}"
 export CPLUS_INCLUDE_PATH="${mylocal}/mpir/include/:${CPLUS_INCLUDE_PATH}"
 export LIBRARY_PATH="${mylocal}/mpir/lib/:${LIBRARY_PATH}"
 export LD_LIBRARY_PATH="${mylocal}/mpir/lib/:${LD_LIBRARY_PATH}"
+
+# export Crypto++ paths
+export CPLUS_INCLUDE_PATH="${mylocal}/cryptopp/include/:${CPLUS_INCLUDE_PATH}"
+export LIBRARY_PATH="${mylocal}/cryptopp/lib/:${LIBRARY_PATH}"
+export LD_LIBRARY_PATH="${mylocal}/cryptopp/lib/:${LD_LIBRARY_PATH}"
 ```
 
 Time to load the newly added paths into your terminal via `source ~/.bashrc`.
