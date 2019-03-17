@@ -14,14 +14,16 @@ permalink: /research/
 <li id="/publications/RW19">
 <span class="title"> MArBled Circuits: Mixing Arithmetic and Boolean Circuits with Active Security. </span>
 <br>  Dragos Rotaru and Tim Wood
-<br> <em>TBD</em> ≻ <a href="https://ia.cr/2019/207">eprint</a>.
+<br> <em>TBD</em> ≻ <a href="https://ia.cr/2019/207">eprint</a>,
+	 <a href="/assets/slides/marbled-circuits.pdf" title="marbled-circuits">slides</a>.
 </li>
 
 
 <li id="/publications/MRSV18">
 <span class="title">  EPIC: Efficient Private Image Classification (or: Learning from the Masters).</span>
 <br> Eleftheria Makri, Dragos Rotaru, Nigel P. Smart, Frederik Vercauteren
-<br> <em>(to appear in) CT-RSA 2019</em> ≻ <a href="https://ia.cr/2017/1190">eprint</a>.
+<br> <em>CT-RSA 2019</em> ≻ <a href="https://ia.cr/2017/1190">eprint</a>.
+ <a href="/assets/slides/ct-rsa19.pdf" title="CT-RSA19">slides</a>.
 </li>
 
 
