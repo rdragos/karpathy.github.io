@@ -12,7 +12,7 @@ permalink: /research/
 </style>
 
 <li id="/publications/AGP+19">
-<span class="title"> Feistel Structures for MPC, and More </span>
+<span class="title"> Feistel Structures for MPC, and More. </span>
 <br>  Martin R. Albrecht, Lorenzo Grassi, Léo Perrin, Sebastian Ramacher, Christian Rechberger, Dragos Rotaru, Arnab Roy, Markus Schofnegger
 <br> <em>TBD</em> ≻ <a href="https://ia.cr/2019/397">eprint</a>.
 </li>
