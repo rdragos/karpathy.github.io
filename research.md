@@ -19,6 +19,19 @@ permalink: /research/
 	 <a href="/assets/slides/marbled-circuits.pdf" title="marbled-circuits">slides</a>.
 </li>
 
+<li id="/publications/GLR+19">
+<span class="title">   On a Generalization of Substitution-Permutation Networks: The HADES Design Strategy. </span>
+<br> Lorenzo Grassi, Reinhard Lüftenegger, Christian Rechberger, Dragos Rotaru, Markus Schofnegger
+<br> <em>TBD</em> ≻ <a href="https://ia.cr/2019/1107">eprint</a>.
+</li>
+
+<li id="/publications/AOR+19">
+<span class="title">  Zaphod: Efficiently Combining LSSS and Garbled Circuits in SCALE. </span>
+<br>  Abdelrahaman Aly, Emmanuela Orsini, Dragos Rotaru, Nigel P. Smart, Tim Wood
+<br> <a href="https://homomorphicencryption.org/workshops/wahc19/"><em>WAHC 2019</em></a> ≻ <a href="https://ia.cr/2019/974">eprint</a>.
+</li>
+
+
 <li id="/publications/AGP+19">
 <span class="title"> Feistel Structures for MPC, and More. </span>
 <br>  Martin R. Albrecht, Lorenzo Grassi, Léo Perrin, Sebastian Ramacher, Christian Rechberger, Dragos Rotaru, Arnab Roy, Markus Schofnegger
