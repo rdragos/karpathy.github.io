@@ -12,24 +12,33 @@ permalink: /research/
 </style>
 
 
-<li id="/publications/RW19">
-<span class="title"> MArBled Circuits: Mixing Arithmetic and Boolean Circuits with Active Security. </span>
-<br>  Dragos Rotaru and Tim Wood
-<br> <em>TBD</em> ≻ <a href="https://ia.cr/2019/207">eprint</a>,
-	 <a href="/assets/slides/marbled-circuits.pdf" title="marbled-circuits">slides</a>.
+
+<li id="/publications/RSTVW19">
+<span class="title"> Actively Secure Setup for SPDZ. </span>
+<br /> Dragos Rotaru and Nigel P. Smart and Titouan Tanguy and Frederik Vercauteren and Tim Wood
+<br /> <em>TBD</em> ≻ <a href="https://ia.cr/2019/1300">eprint</a>.
 </li>
 
 <li id="/publications/GLR+19">
 <span class="title">   On a Generalization of Substitution-Permutation Networks: The HADES Design Strategy. </span>
-<br> Lorenzo Grassi, Reinhard Lüftenegger, Christian Rechberger, Dragos Rotaru, Markus Schofnegger
-<br> <em>TBD</em> ≻ <a href="https://ia.cr/2019/1107">eprint</a>.
+<br /> Lorenzo Grassi, Reinhard Lüftenegger, Christian Rechberger, Dragos Rotaru, Markus Schofnegger
+<br /> <em>TBD</em> ≻ <a href="https://ia.cr/2019/1107">eprint</a>.
+</li>
+
+<li id="/publications/RW19">
+<span class="title"> MArBled Circuits: Mixing Arithmetic and Boolean Circuits with Active Security. </span>
+<br />  Dragos Rotaru and Tim Wood
+<br /> <em>INDOCRYPT 2019</em> ≻ <a href="https://ia.cr/2019/207">eprint</a>,
+	 <a href="/assets/slides/marbled-circuits.pdf" title="marbled-circuits">slides</a>.
 </li>
 
 <li id="/publications/AOR+19">
 <span class="title">  Zaphod: Efficiently Combining LSSS and Garbled Circuits in SCALE. </span>
-<br>  Abdelrahaman Aly, Emmanuela Orsini, Dragos Rotaru, Nigel P. Smart, Tim Wood
-<br> <a href="https://homomorphicencryption.org/workshops/wahc19/"><em>WAHC 2019</em></a> ≻ <a href="https://ia.cr/2019/974">eprint</a>.
-</li>
+<br />  Abdelrahaman Aly, Emmanuela Orsini, Dragos Rotaru, Nigel P. Smart, Tim Wood
+<br /> <a href="https://homomorphicencryption.org/workshops/wahc19/"><em>WAHC 2019</em></a> ≻ <a href="https://ia.cr/2019/974">eprint</a>,
+	 <a href="/assets/slides/Zaphod.pdf" title="Zaphod">slides</a>,
+     <a href="https://www.youtube.com/watch?v=ItA3zIrLD4k">video</a>.
+     </li>
 
 
 <li id="/publications/AGP+19">
