@@ -3,4 +3,4 @@ my own website:
 
 sudo apt-get install jekyll
 bundle exec jekyll build
-bundle exec jekyll serv
+bundle exec jekyll serve
