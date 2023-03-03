@@ -17,5 +17,5 @@ Nigel Smart.
 My interests range from multiparty computation, applied cryptography to algorithms and data structures.
 In my spare time I have created a list with MPC resources both software and theory. Check it out [here](https://github.com/rdragos/awesome-mpc) and feel free to contribute!
 
-If you want to contact me please drop me an email to
-`first-name dot last-name at zama dot ai` or a DM on Twitter.
+If you want to contact me please drop an email to
+`r dot first-name 01 at gmail dot com` or a DM on Twitter.
