@@ -60,7 +60,7 @@ Nigel P. Smart, Samuel Tap, Michael Walter
 
 <li id="/publications/RW19">
 <span class="title"> MArBled Circuits: Mixing Arithmetic and Boolean Circuits with Active Security. </span>
-<br />  Dragos Rotaru and Tim Wood
+<br />  Dragos Rotaru, Tim Wood
 <br /> <em>INDOCRYPT, 2019</em> ≻ <a href="https://ia.cr/2019/207">eprint</a>,
 	 <a href="/assets/slides/marbled-circuits.pdf" title="marbled-circuits">slides</a>.
 </li>
@@ -133,7 +133,7 @@ Nigel P. Smart, Samuel Tap, Michael Walter
 
 <li id="/publications/RSTVW19">
 <span class="title"> Actively Secure Setup for SPDZ. </span>
-<br /> Dragos Rotaru and Nigel P. Smart and Titouan Tanguy and Frederik Vercauteren and Tim Wood
+<br /> Dragos Rotaru, Nigel P. Smart, Titouan Tanguy, Frederik Vercauteren, Tim Wood
 <br /> <em>Journal of Cryptology, 2022</em> ≻ <a href="https://ia.cr/2019/1300">eprint</a>.
 </li>
 
