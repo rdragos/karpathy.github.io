@@ -139,7 +139,7 @@ Nigel P. Smart, Samuel Tap, Michael Walter
 
 
 <li id="/publications/SRMMPP21">
-<span class="title"> HERMES: Scalable, Secure, and Privacy-Enhancing Vehicular Sharing-Access System
+<span class="title"> HERMES: Scalable, Secure, and Privacy-Enhancing Vehicular Sharing-Access System.
 </span>
 <br />
 Iraklis Symeonidis, Dragos Rotaru, Mustafa A Mustafa, Bart Mennink, Bart Preneel, Panos Papadimitratos
@@ -157,13 +157,13 @@ Iraklis Symeonidis, Dragos Rotaru, Mustafa A Mustafa, Bart Mennink, Bart Preneel
 </li>
 
 <li id="/talks/TPMPC19">
-<span class="title">MArBled Circuits: Mixing Arithmetic and Boolean Circuits with Active Security</span>
+<span class="title">MArBled Circuits: Mixing Arithmetic and Boolean Circuits with Active Security.</span>
 <br> <em>TPMPC workshop 2019</em> ≻ <a href="http://www.multipartycomputation.com/tpmpc-2019">TPMPC'19</a>,
 <a href="/assets/slides/tpmpc2019.pdf" title="tpmpc2019">slides</a>.
 </li>
 
 <li id="/talks/DIMACS19">
-<span class="title">An universal MPC machine</span>
+<span class="title">An universal MPC machine.</span>
 <br> <em>DIMACS workshop 2019</em> ≻ <a href="https://www.bu.edu/hic/2019-dimacs-workshop/">DIMACS'19</a>,
 <a href="https://www.youtube.com/watch?v=ZJalZFrd4bAf" title="dimacs2019">video</a>.
 </li>
