@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a senior cryptographer at [Zama](https://www.zama.ai/) in the protocols team.
+I am a cryptographer at [Zama](https://www.zama.ai/) in the protocols team.
 
 Previously I was a cryptography engineer at [Cape
 Privacy](https://capeprivacy.com/) where I worked on
